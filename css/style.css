@@ -1,0 +1,166 @@
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*succeed style*/
+.wei_main{
+	width: 82.8%;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.wei_top{
+	width: 100%;
+	height: 18.5rem;
+	padding-top: 6rem;
+	
+}
+.wei_top img{
+	width: 4rem;
+	height: 3.5rem;
+	margin: 0 auto;
+	display: block;
+}
+.wei_top p{
+	font-size: 1.6rem;
+	line-height: 5rem;
+	color: #1aad19;
+	text-align: center;
+	
+}
+.wei_top h3{
+	font-size: 2rem;
+	line-height: 2rem;
+	color: #353535;
+	text-align: center;
+}
+.wei_top h3 span{
+	font-size: 2.6rem;
+	line-height: 2.6rem;
+	font-weight: 600;
+}
+.wei_btn{
+	width: 100%;
+	height: 6rem;
+	border-top: 1px solid #e1e1e1;
+}
+.wei_btn p{
+	line-height: 5.4rem;
+	font-size: 1.2rem;
+	color: #808080;
+}
+.wei_btn p img{
+	display: block;
+	width: 1.8rem;
+	height: 1.8rem;
+	margin-right: 0.5rem;
+	float: left;
+	margin-top: 1.8rem;
+}
+.accomplish{
+	width: 14.5rem;
+	height: 2.9rem;
+	background: #ffffff;
+	border: 2px solid #009400;
+	border-radius: 0.4rem;
+	font-size: 1.2rem;
+	color: #00a300;
+	display: block;
+	position: fixed;
+	left: 50%;
+	bottom: 5rem;
+	transform: translateX(-50%);
+}
+
+/*index style*/
+
+.zf_head{
+	width: 100%;
+	height: 4.3rem;
+	background: #393A3F;
+}
+.return{
+	width: 1.6rem;
+	height: 2.3rem;
+	padding: 0 1.3rem;
+	margin: 1rem 0;
+	float: left;
+	border-right: 1px solid #303034;
+	
+}
+.return img{
+	width: 1.6rem;
+	height: 1.6rem;
+	vertical-align: middle;
+	margin-top: 0.3rem;
+}
+.zf_head p{
+	font-size: 1.6rem;
+	color: #FFFFFF;
+	text-indent: 1rem;
+	line-height: 4.3rem;
+}
+.zf_content{
+	width: 88%;
+	height: 31.6rem;
+	margin: 1.7rem auto;
+	background: #FFFFFF;
+	padding-top: 1.4rem;
+}
+.zf_content .icon_header{
+	width: 4rem;
+	height: 4rem;
+	display: block;
+	margin: 0 auto 1.4rem;
+}
+.zf_content h5{
+	font-size: 1.2rem;
+	color: #7A7A7A;
+	text-align: center;
+}
+.zf_content p{
+	font-size: 1.3rem;
+	line-height: 3rem;
+	width: 80%;
+	margin: 2.5rem auto 0;
+}
+.zf_input{
+	width: 80%;
+	height: 4rem;
+	padding: 1rem 0;
+	margin: 0 auto;
+	border-bottom: 1px solid #E8E8E8;
+}
+.zf_input img{
+	width: 1.5rem;
+	height: 2rem;
+	display: block;
+	float: left;
+	margin-top: 1rem;
+	margin-right: 0.6rem;
+}
+.zf_input input{
+	width: 70%;
+	height: 100%;
+	border: none;
+	font-size: 2rem;
+	outline: none;
+}
+.liuy{
+	color: #506590;
+	margin-top: 1.5rem !important;
+}
+.transfer{
+	width: 80%;
+	height: 4.3rem;
+	background: #1AAD19;
+	font-size: 1.6rem;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 0.4rem;
+	margin: 1rem auto;
+	display: block;
+}

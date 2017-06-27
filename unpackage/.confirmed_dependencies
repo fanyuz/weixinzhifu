@@ -1,0 +1,27 @@
+{
+  "html/succeed.html": {
+    "href": "html/succeed.html",
+    "resources": [
+      "css/reset.css",
+      "css/style.css",
+      "img/logo.png",
+      "img/head_icon.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/reset.css",
+      "css/style.css",
+      "img/head_icon.png",
+      "img/100300735633179704.png",
+      "img/icon_rmb.jpg"
+    ],
+    "refer": [
+      "html/succeed.html"
+    ],
+    "priority": 0
+  }
+}

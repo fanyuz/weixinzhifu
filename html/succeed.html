@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>微信支付</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/style.css" />
+    
+</head>
+<body>
+	
+	<div class="wei_main">
+		<div class="wei_top">
+			<img src="../img/logo.png" alt="" />
+			<p>支付成功</p>
+			<h3>￥<span class="money">20.00</span></h3>
+		</div>
+		<div class="wei_btn">
+			<p class="fl">收款人</p>
+			<p class="fr"><img src="../img/head_icon.png" alt="" />东方英博(**岩)</p>
+			
+		</div>
+		<button class="accomplish">完成</button>
+	</div>
+	<script type="text/javascript">
+		//px转换rem
+		(function (doc, win) {
+		  var docEl = doc.documentElement,
+		    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		    recalc = function () {
+		      var clientWidth = docEl.clientWidth;
+		      if (!clientWidth) return;
+		      docEl.style.fontSize = 10 * (clientWidth / 320) + 'px';
+		    };
+		
+		  if (!doc.addEventListener) return;
+		  win.addEventListener(resizeEvt, recalc, false);
+		  doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+		
+		
+		
+		var money = document.getElementsByClassName("money")[0],
+			accop = document.getElementsByClassName("accomplish")[0];
+		money.innerText = parseFloat(sessionStorage.money).toFixed(2);
+		
+		accop.onclick = function(){
+			window.history.back();
+		}
+		
+	</script>
+</body>
+</html>
